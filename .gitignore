@@ -1,0 +1,20 @@
+# Terraform local state and backups (CRITICAL: Never commit state)
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform plugin / provider cache
+.terraform/
+
+# Terraform CLI configuration and variable files
+*.tfvars
+**.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# OS specific files
+.DS_Store
+Thumbs.db
