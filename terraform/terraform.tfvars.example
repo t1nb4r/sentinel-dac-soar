@@ -1,0 +1,10 @@
+resource_group_name = "rg-sentinel-dac-lab"
+location            = "westeurope"
+workspace_name      = "law-sentinel-dac-lab"
+retention_in_days   = 30
+daily_quota_gb      = 0.5
+tags = {
+  Environment = "Lab"
+  Project     = "Sentinel-DaC-SOAR"
+  ManagedBy   = "Terraform" 
+}
