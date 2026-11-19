@@ -1,3 +1,5 @@
+> **Projekt-Status:** In aktiver Entwicklung (Phase 2 von 5 – Terraform Core & Sentinel Setup)
+
 # Microsoft Sentinel Detection-as-Code & SOAR Lab
 
 Ein praxisnahes Cloud-Security-Projekt zum Aufbau einer reproduzierbaren SIEM- und SOAR-Infrastruktur auf Microsoft Azure mittels Terraform und GitHub Actions.
