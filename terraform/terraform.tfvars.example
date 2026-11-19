@@ -1,5 +1,5 @@
 resource_group_name = "rg-sentinel-dac-lab"
-location            = "westeurope"
+location            = "germanywestcentral"
 workspace_name      = "law-sentinel-dac-lab"
 retention_in_days   = 30
 daily_quota_gb      = 0.5

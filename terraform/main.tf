@@ -4,7 +4,7 @@ data "azurerm_resource_group" "rg" {
 
 resource "azurerm_log_analytics_workspace" "law" {
   name                = var.workspace_name
-  location            = data.azurerm_resource_group.rg.location
+  location            = var.location
   resource_group_name = data.azurerm_resource_group.rg.name
   sku                 = "PerGB2018"
   retention_in_days   = var.retention_in_days
